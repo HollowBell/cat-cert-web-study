@@ -1,0 +1,46 @@
+<html>
+    <head><title>계산기</title></head>
+    <body>
+        <table align="center">
+           <tr>
+                <td colspan="5" class="display" id="input"></td>
+           </tr>
+           <tr >
+                <td colspan="5" class="display" id="output">0</td>
+           </tr>
+           <tr>
+                <td class="num" onclick="num_click('7')">7</td>
+                <td class="num" onclick="num_click('8')">8</td>
+                <td class="num" onclick="num_click('9')">9</td>
+                <td class="clear" onclick="clearInput()">입력 과정<br> 초기화</td>
+                
+                <td class="cal" onclick="cal_click('/')">/</td>
+
+           </tr>
+           <tr>
+                <td class="num" onclick="num_click('4')">4</td>
+                <td class="num" onclick="num_click('5')">5</td>
+                <td class="num" onclick="num_click('6')">6</td>
+                <td class="clear" onclick="clearLast()">백스페이스</td>
+                <td class="cal" onclick="cal_click('*')">*</td>
+           </tr>
+           <tr>
+                <td class="num" onclick="num_click('1')">1</td>
+                <td class="num" onclick="num_click('2')">2</td>
+                <td class="num" onclick="num_click('3')">3</td>
+                <td class="clear" onclick="clearAll()">초기화</td>
+                <td class="cal" onclick="cal_click('-')">-</td>
+           </tr>
+           <tr> 
+                <td id="point" onclick="num_click('.')">.<br><span class="remain">(소수점)</span></td>
+                <td class="num" onclick="num_click('0')">0</td>
+                <td class="cal" onclick="minus()">+/-</td>
+                <td id="result" onclick="calculate()">=</td>
+                <td class="cal" onclick="cal_click('+')">+</td>
+           </tr>
+            
+        </table>
+    </body>
+    <link rel="stylesheet" type="text/css" href="계산기.css">
+    <script src="계산기.js"></script>
+</html>

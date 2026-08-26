@@ -1,0 +1,30 @@
+#memo_form {
+
+    border : 2px solid black;
+    width:300px;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin:0 auto;
+}
+
+#title {
+    width: 100%;
+}
+
+#content{
+    width: 100%;
+}
+
+#save {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(173, 124, 124);
+}
+
+#save_form {
+    border: 2px solid black;
+    width:300px;
+    margin:0 auto;
+    padding: 15px;
+    background-color: aquamarine;
+}

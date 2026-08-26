@@ -1,0 +1,26 @@
+<html>
+    <head><meta charset="UTF-8">
+        <title>자동삭제메모장</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="메모장.css">
+    <body>
+        <h2 align="center">자동삭제 메모장</h2>
+        <div id="memo_form">
+            제목 : <input type="text" id="title"><br>
+            내용 : <textarea id="content" rows="5" placeholder="내용 입력"></textarea><br>
+        
+        <p align="center">
+            <input type="button" value="저장" id="save" onclick="memo_save()">
+        </p>
+        </div>
+        <br>
+
+        <div id="save_form">
+            저장된 메모장
+            <ul>
+                <li id="saving"></li>
+            </ul>
+        </div>
+    <script src="메모장.js"></script>    
+    </body>
+</html>

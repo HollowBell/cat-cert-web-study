@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+
+.list {
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.word {
+    border : 1px dashed red;
+    padding:3px;
+    margin: 0 5px; 
+
+}
+
